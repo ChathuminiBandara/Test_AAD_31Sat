@@ -6,8 +6,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TestAad31SatApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TestAad31SatApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TestAad31SatApplication.class, args);
+    }
+
+
+
+
 
 }
