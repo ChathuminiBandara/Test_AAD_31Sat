@@ -1,10 +1,12 @@
 package lk.ijse.aad.test_aad_31sat.foodItems;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Primary
+@Qualifier
 public class ChickenBun {
     //3rd preference
 
