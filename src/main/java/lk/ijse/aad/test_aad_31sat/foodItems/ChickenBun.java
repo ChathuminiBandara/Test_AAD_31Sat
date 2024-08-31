@@ -1,2 +1,19 @@
-package lk.ijse.aad.test_aad_31sat.foodItems;public class ChickenBun {
+package lk.ijse.aad.test_aad_31sat.foodItems;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class ChickenBun {
+    //3rd preference
+
+    public ChickenBun(){
+        System.out.println("ChickenBun");
+    }
+
+    public void thirdPreference(){
+        System.out.println("Mahesh's 3rd preference is ChickenBun! ");
+    }
+
 }
